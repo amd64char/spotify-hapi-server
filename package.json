@@ -1,0 +1,29 @@
+{
+  "name": "spotify-hapi-server",
+  "version": "1.0.0",
+  "description": "Fun simple API using Nodejs and Hapi to connect to the spotify api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "errorMessages": {
+    "getAlbumsAll": "No Albums found based on search criteria.",
+    "getAlbumsById": "Album not found by id."
+  },
+  "keywords": [
+    "api",
+    "v1",
+    "spotify"
+  ],
+  "author": "Charlie Seitz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "hapi": "^18.1.0",
+    "hapi-swagger": "^10.0.2",
+    "inert": "^5.1.3",
+    "node-spotify-api": "^1.1.1",
+    "nodemon": "^1.19.1",
+    "vision": "^5.4.4"
+  }
+}
